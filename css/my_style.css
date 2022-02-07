@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#navbar{
+    box-shadow: 0 1px 9px #a4a3a3;
+    overflow: hidden;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+    
+}
+.left{
+    float: left;
+    padding: 20px;
+    
+}
+ol{
+    float:right;
+    margin: 0;
+    list-style: none;
+}
+ol li{
+    display: inline-block;
+    padding: 20px;
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+ol li:hover{
+    background-color: #a4a3a375;
+}
+
+.container{
+    width: 1450px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header{
+    background: url('../images/hamburger.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.header .container h1{
+position: absolute;
+bottom: 10px;
+letter-spacing: 5px;
+font-size:40px;
+font-weight: 100;
+}
+
+#menu{
+    margin-bottom: 100px;
+}
+#menu h2, #menu p{
+    text-align: center;
+    line-height: 1.8em;
+}
+
+#menu h2{
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+
+.one-card{
+    width: 350px;
+    text-align: center;
+    padding:10px;
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+    /* height: 355px; */
+    margin: 40px;
+    
+}
+.one-card img{
+    border-radius: 50%;
+    width: 170px;
+    margin-top: 20px;
+
+}
+
+.one-card h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+.one-card p{
+    padding:0 40px 5px;
+    line-height: 30px;
+    color: #9c9c9c;
+}
+
+.one-card button{
+    background-color: #5a56ec;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.one-card:hover{
+    border-color:#5a56ec ;
+}
+
+.one-card button:hover{
+    background-color: #5a56ec73;
+   box-shadow: 1px 1px 3px #747474;
+   color: #000;
+}
+/* end cards section  */
+
+#footer{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
