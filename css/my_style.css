@@ -125,6 +125,7 @@ font-weight: 100;
 /* end cards section  */
 
 #footer{
+    width:100%;
     background-color: #000;
     color: white;
     text-align: center;
