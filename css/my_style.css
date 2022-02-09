@@ -174,7 +174,6 @@ font-weight: 100;
 .all-boxs .box:hover .content {
     opacity: 1;
     height: 100%;
-    padding-top: 10%;
 }
 .all-boxs .box .content {
   
@@ -186,5 +185,9 @@ font-weight: 100;
     height: 0;
     transition: .5s opacity, height .5s ease-in-out;
     
+}
+
+.all-boxs .box .content p{
+    margin-top:15%;
 }
 
